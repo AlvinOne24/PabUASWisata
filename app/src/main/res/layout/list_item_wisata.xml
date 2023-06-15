@@ -14,7 +14,8 @@
             android:id="@+id/tv_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ID"/>
+            android:text="ID"
+            android:visibility="invisible"/>
         <TextView
             android:id="@+id/tv_nama"
             android:layout_width="wrap_content"
