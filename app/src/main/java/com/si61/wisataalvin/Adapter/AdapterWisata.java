@@ -36,6 +36,7 @@ public class AdapterWisata extends RecyclerView.Adapter<AdapterWisata.VHWisata> 
         holder.tvId.setText(MW.getId());
         holder.tvNama.setText(MW.getNama());
         holder.tvLokasi.setText(MW.getLokasi());
+        holder.tvUrlMap.setText(MW.getUrlmap());
     }
 
     @Override
